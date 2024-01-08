@@ -1,0 +1,80 @@
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-size: 16px;
+  font-family: 'Karla', sans-serif;
+  font-family: 'Work Sans', sans-serif;
+  color: #2f1533;
+}
+
+body,
+main {
+  height: 100vh;
+  width: 100vw;
+  margin: 0;
+  background-color: #f9f0ff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#background-pattern-mobile {
+  position: absolute;
+  top: 0;
+  z-index: 1;
+}
+
+#card {
+  padding: 25px;
+  width: 90%;
+  margin: auto;
+  background-color: white;
+  border-radius: 5%;
+  position: relative;
+  z-index: 5;
+}
+
+#card-heading {
+  /* border: 2px solid red; */
+  display: flex;
+  margin-bottom: 20px;
+}
+
+#icon-star {
+  width: 20px;
+  /* border: 2px solid red; */
+}
+
+h1 {
+  /* border: 2px solid green; */
+  font-size: 1.8rem;
+  margin-left: 20px;
+}
+
+ul {
+  list-style: none;
+}
+
+.items {
+  border-top: 2px solid #f9f0ff;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin: 10px 10px 10px 0;
+  /* border: 2px solid black; */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+h3 {
+  width: 75%;
+  /* border: 2px solid red; */
+}
+
+.add-minus-icon {
+  justify-self: end;
+}
