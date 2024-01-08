@@ -77,4 +77,7 @@ h3 {
 
 .add-minus-icon {
   justify-self: end;
+  cursor: pointer;
+  border: none;
+  background-color: white;
 }
