@@ -7,7 +7,7 @@
   font-size: 16px;
   font-family: 'Karla', sans-serif;
   font-family: 'Work Sans', sans-serif;
-  color: #2f1533;
+  color: #4c2053;
 }
 
 body,
@@ -70,6 +70,12 @@ ul {
 
 h3 {
   width: 75%;
+}
+
+h3:hover {
+  color: #e164f4;
+  cursor: pointer;
+  transform: scale(1.02);
 }
 
 .add-minus-icon {
