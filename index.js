@@ -15,3 +15,17 @@ buttons.forEach((button, index) => {
     }
   })
 })
+
+const changeImage = () => {
+  const img = document.getElementById('background-pattern')
+
+  if (window.innerWidth > 516) {
+    img.src = './assets/images/background-pattern-desktop.svg'
+  } else {
+    img.src = './assets/images/background-pattern-mobile.svg'
+  }
+}
+
+window.addEventListener('resize', changeImage)
+
+changeImage()
