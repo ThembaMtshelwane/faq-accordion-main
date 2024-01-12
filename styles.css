@@ -7,7 +7,7 @@
   font-size: 16px;
   font-family: 'Karla', sans-serif;
   font-family: 'Work Sans', sans-serif;
-  color: #4c2053;
+  color: hsl(292, 42%, 14%);
 }
 
 body,
@@ -43,15 +43,24 @@ main {
 #card-heading {
   display: flex;
   margin-bottom: 20px;
+  font-weight: 700;
+  font-size: 1.5rem;
+  height: 50px;
+  width: 150px;
+  position: relative;
 }
 
 #icon-star {
-  width: 20px;
+  width: 30px;
+  position: relative;
+  top: 0;
 }
 
 h1 {
-  font-size: 1.8rem;
+  font-size: 2.5rem;
   margin-left: 20px;
+  display: flex;
+  align-items: center;
 }
 
 ul {
@@ -90,6 +99,7 @@ p {
   font-size: 0.8rem;
   color: #8c6991;
   opacity: 0.8;
+  line-height: 1.5;
 }
 
 .info-hide {
@@ -97,6 +107,11 @@ p {
 }
 
 @media screen and (min-width: 416px) {
+  #card {
+    width: 350px;
+    border-radius: 2%;
+    margin-top: 150px;
+  }
   #background-pattern {
     height: 30vh;
     width: 100%;
@@ -104,27 +119,15 @@ p {
 }
 
 @media screen and (min-width: 516px) {
-  #background-pattern {
-    height: 30vh;
-    width: 100%;
-  }
   #card {
-    width: 90%;
+    width: 550px;
     border-radius: 2%;
   }
   h3 {
     width: 100%;
+    margin-right: 10px;
   }
   #info {
     font-size: 1rem;
-  }
-}
-
-@media screen and (min-width: 720px) {
-  #background-pattern {
-    height: 30vh;
-  }
-  #card {
-    width: 40%; 
   }
 }
