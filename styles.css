@@ -108,9 +108,9 @@ p {
 
 @media screen and (min-width: 416px) {
   #card {
-    width: 350px;
+    width: 450px;
     border-radius: 2%;
-    margin-top: 45px;
+    margin-top: 145px;
   }
   #background-pattern {
     height: 30vh;
@@ -121,7 +121,6 @@ p {
 @media screen and (min-width: 516px) {
   #card {
     width: 550px;
-    border-radius: 2%;
   }
   h3 {
     width: 100%;
