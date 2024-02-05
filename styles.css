@@ -10,34 +10,36 @@
   color: hsl(292, 42%, 14%);
 }
 
-body,
-main {
-  width: 100%;
-  margin: 0;
+body {
+  height: 100vh;
+  width: 100vw;
   background-color: #f9f0ff;
+}
+
+main {
   display: flex;
   flex-direction: column;
-  justify-content: center;
   align-items: center;
+  /* border: 2px solid red; */
+  width: 100vw;
 }
 
 #background-pattern {
-  width: 100vw;
-  position: absolute;
-  top: 0;
-  z-index: 1;
+  width: 100%;
   object-fit: cover;
+  /* border: 2px solid red; */
+  margin: 0;
 }
 
 #card {
+  /* border: 2px solid red; */
   padding: 25px;
   width: 90%;
-  margin: auto;
+  margin: 0;
   background-color: white;
   border-radius: 5%;
-  position: relative;
-  z-index: 1;
-  margin: 50px;
+  position: absolute;
+  top: 60px;
 }
 
 #card-heading {
@@ -110,7 +112,7 @@ p {
   #card {
     width: 450px;
     border-radius: 2%;
-    margin-top: 145px;
+    /* margin-top: 145px; */
   }
   #background-pattern {
     height: 30vh;
